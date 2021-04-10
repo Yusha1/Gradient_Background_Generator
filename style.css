@@ -5,14 +5,24 @@
     --light: #fff;
 }
 
-html, body {
+body {
     font-family: 'Roboto', sans-serif;
     color: var(--dark);
     text-align: center;
-    background-image: linear-gradient(to right, red , yellow);
+    background: linear-gradient(to right, blue , orange);
+    /* background: linear-gradient(to right, #a32525, #b0bab0); */
 }
 
 h1 {
     letter-spacing: 1.1rem;
     text-transform: uppercase;
+}
+
+h2 {
+    font-weight: lighter;
+    font-size: 1.7rem;
+}
+
+.output {
+    font-size: 1.2rem;
 }
